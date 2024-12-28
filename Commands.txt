@@ -1,0 +1,11 @@
+Commands:
+django-admin startproject TodoProject
+python3 manage.py runserver
+
+python3 manage.py startapp todos
+
+python3 manage.py migrate 
+
+python3 manage.py makemigrations todos
+
+python3 manage.py sqlmigrate todos 0001

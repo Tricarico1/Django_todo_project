@@ -1,0 +1,29 @@
+
+TodoProject/
+│
+├── TodoProject/           # Project root directory
+│   ├── __init__.py
+│   ├── asgi.py           # ASGI config for deployment
+│   ├── settings.py       # Project settings
+│   ├── urls.py           # Project URL configuration
+│   └── wsgi.py           # WSGI config for deployment
+│
+├── todos/                 # Todo app directory
+│   ├── migrations/       # Database migrations
+│   │   └── __init__.py
+│   ├── templates/        # HTML templates
+│   │   └── todos/
+│   │       └── todo_list.html
+│   ├── static/          # Static files (CSS, JS, images)
+│   │   └── todos/
+│   │       └── styles.css
+│   ├── __init__.py
+│   ├── admin.py         # Admin interface configuration
+│   ├── apps.py          # App configuration
+│   ├── models.py        # Database models
+│   ├── tests.py         # Unit tests
+│   ├── urls.py          # App URL configuration
+│   └── views.py         # View functions
+│
+├── manage.py            # Django management script
+└── db.sqlite3           # SQLite database file

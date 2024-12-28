@@ -1,4 +1,0 @@
-TodoProject
-Commands:
-django-admin startproject TodoProject
-python3 manage.py runserver
